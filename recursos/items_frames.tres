@@ -1,0 +1,138 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bwllphgimjkwy"]
+
+[ext_resource type="Texture2D" uid="uid://dyh13qluhj72m" path="res://sprites/items_spritesheet.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="a8"]
+atlas = ExtResource("1")
+region = Rect2(0, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a9"]
+atlas = ExtResource("1")
+region = Rect2(16, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a10"]
+atlas = ExtResource("1")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a11"]
+atlas = ExtResource("1")
+region = Rect2(48, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a0"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a1"]
+atlas = ExtResource("1")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a2"]
+atlas = ExtResource("1")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a3"]
+atlas = ExtResource("1")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a12"]
+atlas = ExtResource("1")
+region = Rect2(0, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a13"]
+atlas = ExtResource("1")
+region = Rect2(16, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a14"]
+atlas = ExtResource("1")
+region = Rect2(32, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a15"]
+atlas = ExtResource("1")
+region = Rect2(48, 48, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a4"]
+atlas = ExtResource("1")
+region = Rect2(0, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a5"]
+atlas = ExtResource("1")
+region = Rect2(16, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a6"]
+atlas = ExtResource("1")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="a7"]
+atlas = ExtResource("1")
+region = Rect2(48, 16, 16, 16)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a8")
+}, {
+"duration": 1.0,
+"texture": SubResource("a9")
+}, {
+"duration": 1.0,
+"texture": SubResource("a10")
+}, {
+"duration": 1.0,
+"texture": SubResource("a11")
+}],
+"loop": 1,
+"name": &"albahaca",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a0")
+}, {
+"duration": 1.0,
+"texture": SubResource("a1")
+}, {
+"duration": 1.0,
+"texture": SubResource("a2")
+}, {
+"duration": 1.0,
+"texture": SubResource("a3")
+}],
+"loop": 1,
+"name": &"choripan",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a12")
+}, {
+"duration": 1.0,
+"texture": SubResource("a13")
+}, {
+"duration": 1.0,
+"texture": SubResource("a14")
+}, {
+"duration": 1.0,
+"texture": SubResource("a15")
+}],
+"loop": 1,
+"name": &"harina",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a4")
+}, {
+"duration": 1.0,
+"texture": SubResource("a5")
+}, {
+"duration": 1.0,
+"texture": SubResource("a6")
+}, {
+"duration": 1.0,
+"texture": SubResource("a7")
+}],
+"loop": 1,
+"name": &"vino",
+"speed": 6.0
+}]

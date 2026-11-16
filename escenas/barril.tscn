@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cq4stp28e0feo"]
+
+[ext_resource type="Script" uid="uid://3y7e1f1sb6kx" path="res://scripts/barril.gd" id="1"]
+[ext_resource type="SpriteFrames" uid="uid://civuwb6lvpl5d" path="res://recursos/barril_frames.tres" id="2"]
+
+[node name="Barril" type="Node2D" unique_id=334607662]
+script = ExtResource("1")
+vida_max = 18
+
+[node name="Sprite" type="AnimatedSprite2D" parent="." unique_id=53089518]
+sprite_frames = ExtResource("2")
+animation = &"quieto"
+offset = Vector2(0, -9)

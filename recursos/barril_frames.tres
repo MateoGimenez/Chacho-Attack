@@ -1,0 +1,82 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://civuwb6lvpl5d"]
+
+[ext_resource type="Texture2D" uid="uid://b8endywkg6w6n" path="res://sprites/barril.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="a2"]
+atlas = ExtResource("1")
+region = Rect2(40, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="a3"]
+atlas = ExtResource("1")
+region = Rect2(20, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="a4"]
+atlas = ExtResource("1")
+region = Rect2(60, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="a5"]
+atlas = ExtResource("1")
+region = Rect2(80, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="a6"]
+atlas = ExtResource("1")
+region = Rect2(100, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="a7"]
+atlas = ExtResource("1")
+region = Rect2(120, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="a0"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 20, 20)
+
+[sub_resource type="AtlasTexture" id="a1"]
+atlas = ExtResource("1")
+region = Rect2(20, 0, 20, 20)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a2")
+}, {
+"duration": 1.0,
+"texture": SubResource("a3")
+}],
+"loop": 0,
+"name": &"dolor",
+"speed": 14.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a4")
+}, {
+"duration": 1.0,
+"texture": SubResource("a5")
+}, {
+"duration": 3.0,
+"texture": SubResource("a6")
+}, {
+"duration": 4.0,
+"texture": SubResource("a7")
+}],
+"loop": 0,
+"name": &"muerte",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a0")
+}],
+"loop": 0,
+"name": &"quieto",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("a1")
+}],
+"loop": 0,
+"name": &"rajado",
+"speed": 5.0
+}]
